@@ -107,7 +107,7 @@ namespace ContractPdfMerger.UI
             // lblMainPdfTitle
             // 
             this.lblMainPdfTitle.Font = new System.Drawing.Font("MS UI Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.lblMainPdfTitle.Text = "契約書面";
+            this.lblMainPdfTitle.Text = "結合先";
             // 
             // panel1
             // 
@@ -119,7 +119,7 @@ namespace ContractPdfMerger.UI
             // 
             this.btnSelectMainPdf.Location = new System.Drawing.Point(0, 5);
             this.btnSelectMainPdf.Size = new System.Drawing.Size(150, 30);
-            this.btnSelectMainPdf.Text = "契約書面PDF選択";
+            this.btnSelectMainPdf.Text = "結合先PDF選択";
             this.btnSelectMainPdf.Click += new System.EventHandler(this.BtnSelectMainPdf_Click);
             // 
             // dgvMainPdf
